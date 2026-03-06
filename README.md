@@ -38,7 +38,4 @@ Run the following command:
 `python3 src/fetch_guardian.py`
 
 
-
-
-
-# Guardian News Sentiment Dataset
+## Method
