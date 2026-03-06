@@ -1,4 +1,4 @@
-# Inferring Happiness Dynamics in Media  
+# Inferring Happiness Dynamics in The Guardian
 
 This project analyzes the emotional tone of articles produced by _The Guardian_ using the labMT 1.0 hedonometer.  
 
