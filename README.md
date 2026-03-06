@@ -47,3 +47,17 @@ In this second project, our group uses the _labMT 1.0 hedonometer_ to measure th
 
 ## Results
 
+### Happiness scores distribution  
+
+(add Figure here) 
+
+
+### Happiness by section  
+
+(add Figure here)  
+
+
+### Happiness over time  
+
+(add figure here)  
+
