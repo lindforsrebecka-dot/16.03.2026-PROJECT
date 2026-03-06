@@ -38,4 +38,7 @@ Run the following command:
 `python3 src/fetch_guardian.py`
 
 
-## Method
+## Method  
+
+In this second project, our group uses the _labMT 1.0 hedonometer_ to measure the emotional tone of The Guardian articles.  
+
