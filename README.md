@@ -4,7 +4,7 @@ This project analyzes the emotional tone of articles produced by _The Guardian_ 
 
 The articles are collected through the Open Platform - The Guardian API.   
 
-Each article is analyzed by using the hedonometer to estimate a happiness score. These scores will allow us to view how emotional tone differs across different section of the news.    
+Each article is analyzed by using the hedonometer to estimate a happiness score. These scores will allow us to view how emotional tone differs across different sections of the news.    
 
 ## Folder layout  
 
@@ -43,4 +43,7 @@ Run the following command:
 ## Method  
 
 In this second project, our group uses the _labMT 1.0 hedonometer_ to measure the emotional tone of The Guardian articles.  
+
+
+## Results
 
