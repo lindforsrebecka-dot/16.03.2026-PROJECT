@@ -18,7 +18,7 @@ Each article is analyzed by using the hedonometer to estimate a happiness score.
 
 The dataset comes from the Guardian Open Platform (Content API)    
 
-https://open-platform.theguardian.com/   
+_https://open-platform.theguardian.com/_   
 
 The API provides access to Guardian's articles and following metadata.  
 
