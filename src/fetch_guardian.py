@@ -6,7 +6,7 @@ API_KEY = "f52152eb-3943-4fd0-a894-508771436000"
 url = "https://content.guardianapis.com/search"
 sections = ["world", "sport", "culture"]
 
-with open("guardian_articles.csv", "w", newline="", encoding="utf-8") as f:
+with open("data/raw/guardian_articles.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerow([
         "title",
