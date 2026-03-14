@@ -17,29 +17,58 @@ Main aim of this project is to compare how emotional tone differs in each news s
 
 ## Dataset  
 
-The dataset comes from the Guardian Open Platform (Content API)    
+The dataset comes from the **Guardian Open Platform (Content API)**.   
 
 _https://open-platform.theguardian.com/_   
 
-The API provides access to Guardian's articles and following metadata.  
+Total number of **900 articles** were gathered, each from:  
 
-The following fields are collected:  
+- **300 articles from World**
+- **300 articles from Sport**
+- **300 articles from Culture**
 
-- webTitle (article title)
-- sectionName (news section)
-- webPublicationDate (publication date)
-- webUrl (link to article)
-- bodyText (article text)
+The API grants access to publications of The Guardian with associated metadata.  
 
-Raw data is stored in:
-  -> `data/raw/guardian_articles.csv`  
+For each articles, the following fields are collected:  
 
-## How to run the script  
+- `webTitle` (article title)
+- `sectionName` (news section)
+- `webPublicationDate` (publication date)
+- `webUrl` (link to article)
+- `bodyText` (article text)
 
-Run the following command:     
+And the raw data is stored in:  
 
-`python3 src/fetch_guardian.py`
+`data/raw/guardian_articles.csv`   
 
+
+## Setup + Run   
+
+#### 1) _Create a virtual environment_  
+
+**macOS / Linux**  
+```bash
+python3 -m venv .venv
+source .venv/bin/activate 
+python3 -m pip install --upgrade pip
+```
+
+**Windows (PowerShell)**
+```powershell
+py -m venv .venv
+./.venv/Scripts/Activate.ps1
+py -m pip install --upgrade pip
+```
+
+#### 2) _Install dependencies_  
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+#### 3) _Fetch articles_
+```bash
+python3 src/fetch_guardian.py
+```
 
 ## Method  
 
