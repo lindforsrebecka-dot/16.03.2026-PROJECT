@@ -49,15 +49,29 @@ In this second project, our group uses the _labMT 1.0 hedonometer_ to measure th
 
 ### Happiness scores distribution  
 
-(add Figure here) 
+![](https://github.com/lindforsrebecka-dot/16.03.2026-PROJECT/blob/5c8f39037aa8274f8d9c8fd1130a88cc5b31b109/figures/happiness_scores_distribution.png)
+
+
+
 
 
 ### Happiness by section  
 
-(add Figure here)  
+![](https://github.com/lindforsrebecka-dot/16.03.2026-PROJECT/blob/5c8f39037aa8274f8d9c8fd1130a88cc5b31b109/figures/happiness_by_section_violin_plot.png)
+
+
+
 
 
 ### Happiness over time  
 
-(add figure here)  
+![](https://github.com/lindforsrebecka-dot/16.03.2026-PROJECT/blob/5c8f39037aa8274f8d9c8fd1130a88cc5b31b109/figures/happiness_over_time.png)
+
+
+
+
+
+
+
+
 
