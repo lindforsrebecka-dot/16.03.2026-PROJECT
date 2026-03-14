@@ -119,37 +119,43 @@ We can see how the **World** section has some articles that are close to the lev
 
 
 ![](https://github.com/lindforsrebecka-dot/16.03.2026-PROJECT/blob/5c8f39037aa8274f8d9c8fd1130a88cc5b31b109/figures/happiness_over_time.png)
+<p align="center"><sub><em>Figure 3. Average happiness scores over time for World, Sport, Culture sections.</em></sub>
+
+Another visualisation looks into **happiness scores over time** by using a time index on the x-axis and the happiness score on the y-axis.   
+
+This plot allows us to look into how happiness changes across the dataset in a chronological order. 
+
+We can see however, that there is no significant change. This indicates that there is **no significant temporal shifts** in hapinness across each articles. 
 
 
-Another visualisation looks into happiness scores over time by using a time index on the x-axis and the happiness score on the y-axis. This plot allows us to look into how happiness changes across the dataset in a chronological order. 
+### Bootstrap Distribution of Mean Happiness Scores
 
-We can see however, that there is no significant change. This tells us that happiness is not influenced over time in the Guardian articles. 
+In order to understand uncertainty in the estimated scores of average happiness, we generated a **bootstrap distribution of the mean happiness** for each section. 
 
+<p align="center">
+    <img src="https://github.com/lindforsrebecka-dot/16.03.2026-PROJECT/blob/1912ccf84fb4ae90c62266ce4d2c0e2e36475621/figures/bootstrap_distribution.png" width="700">
+      </p>
+<p align="center"><sub><em>Figure 4. Bootstrap distribution of Mean Happiness scores across World, Sport, and culture sections.</em></sub>
 
-### Bootstrap Distribution of Mean Happiness 
+The bootstrap results visualizes that 
 
-In order to understand uncertainty in the estimated scores of average happiness, we geenrate a bootstrap distribution of the mean happiness for each section. 
+- **Sport** articles have the highest mean happiness score (**5.62**)
+- **Culture** articles have a very similar mean to Sport, only (**5.60**)
+- **World** articles have a noticeably lower mean happiness (**5.39**)
 
-![](https://github.com/lindforsrebecka-dot/16.03.2026-PROJECT/blob/1912ccf84fb4ae90c62266ce4d2c0e2e36475621/figures/bootstrap_distribution.png)
-
-
-The bootstrap results show that:
-
-- Sport articles have the highest mean happiness score (5.62)
-- Culture articles have a very similar mean to Sport, only (5.60)
-- World articles have a noticeably lower mean happiness (5.39)
-
-This pattern suggests that Sport and Culture articles tend to use slightly more positive language, comapared to the World news articles. 
+This pattern suggests that **Sport** and **Culture** articles tend to use slightly more positive language, comapared to the **World** news articles. 
 
 
 ### Difference in Mean Happiness
 
-A diffence plot of the mean happiness score further shows the comparison between our three sections. We have chosen a plot that  uses the ± 95% confidence interval for a different perspective. 
+This plot compares the mean happiness scores between three sections using ±95% confidence intervals. This provides an additional aspect of how differences emerge between World, Sport, and Culture articles. 
 
 ![](https://github.com/lindforsrebecka-dot/16.03.2026-PROJECT/blob/1912ccf84fb4ae90c62266ce4d2c0e2e36475621/figures/difference_plot_mean.png)
+<p align="center"><sub><em>Figure 5. Comparison of Mean Happiness Scores in World, Sport, and Culture articles.</em></sub>
 
 
 The plot confirms the pattern already observed in the bootstrap distribution: Sport and Culture articles having higher average happiness than World articles. 
+
 
 ### Ridgeline Distribution Plot
 
