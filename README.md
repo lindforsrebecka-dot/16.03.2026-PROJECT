@@ -90,7 +90,7 @@ In this second project, our group uses the _labMT 1.0 hedonometer_ to measure th
 
 
 ![](https://github.com/lindforsrebecka-dot/16.03.2026-PROJECT/blob/5c8f39037aa8274f8d9c8fd1130a88cc5b31b109/figures/happiness_scores_distribution.png)
-<p align="center"><sub><em>Figure 1. Distribution of happiness scores across World, Sport, and Culture sections </em></sub>
+<p align="center"><sub><em>Figure 1. Distribution of happiness scores across World, Sport, and Culture sections. </em></sub>
 
 
 By examining the distribution of happiness scores across all three sections using a histogram, we can analyze how frequently different happiness values appear.  
@@ -103,13 +103,16 @@ The histogram indicates that most values fall bewteen **5-6** happiness range, w
 ### Happiness by section  
 
 
-![](https://github.com/lindforsrebecka-dot/16.03.2026-PROJECT/blob/5c8f39037aa8274f8d9c8fd1130a88cc5b31b109/figures/happiness_by_section_violin_plot.png)
+![](https://github.com/lindforsrebecka-dot/16.03.2026-PROJECT/blob/5c8f39037aa8274f8d9c8fd1130a88cc5b31b109/figures/happiness_by_section_violin_plot.png)  
+<p align="center"><sub><em>Figure 2. Viiolin plot showing distribution of happiness scores across World, Sport, and Culture sections. </em></sub></p>
 
-To compare the three sections, we use a violin plot that shows happiness scores by section. The visualisations helps us see better the distribution, density, and spread of the data, such as how the Sport and Culture sections tend to show higher concentrations of happiness of some higher happiness scores compared with the World articles. 
+To compare the three sections, we used a **violin plot** that shows happiness scores by section. The violin plot helps us to better visualize the distribution, density, and spread of the data.  
 
-A boxplot was also created, however, it provides very similar insight as the violin plot. The violin plot is therefore more emphasised in the analysis because it offers additionally the full distribution density. 
+The plot indicates that **Sport** and **Culture** articles tend to have slightly higher concentrations of higher happiness scores compared to the **World** articles. 
 
-We can see how the World section has some articles that are close to the level of happiness of 2, commpared to the other two sections, where are almost none. This shows there is way more "sadness" in the World articles. 
+A **boxplot** was also created, however, it provides very similar insight as the violin plot. The violin plot is therefore more emphasised in the analysis because it offers additionally the full distribution density. 
+
+We can see how the **World** section has some articles that are close to the level of happiness of 2, commpared to the other two sections, where are almost none. This shows there is way more **"sadness"** in the World articles. 
 
 
 ### Happiness over time  
