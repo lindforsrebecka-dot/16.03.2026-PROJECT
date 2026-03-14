@@ -182,8 +182,8 @@ We use a bar chart of the top contributing words to identify the words contribut
 
 From this chart, various observations were made: 
 
-- In the **World** section, the word `"Mexico"` apprears among the happiest contributing words, which shows Guardian's tendency around specific international news.
-- In the **Sport** section, the word `"rock"` appears as a highly positive word, though usually iy is used metaphorically instead of literally.
+- In the **World** section, the word `Mexico` apprears among the happiest contributing words, which shows Guardian's tendency around specific international news.
+- In the **Sport** section, the word `rock` appears as a highly positive word, though usually iy is used metaphorically instead of literally.
 - In the Culture section, the word "Christmas" also is a highly positive word.
 
 The analysis also shows some interesting nuances. For example, the word "cry" appears in the Culture section with a relatively low happiness score (around 3), even though in some contexts crying might happen in a positive or situations that are emotionally moving. 
