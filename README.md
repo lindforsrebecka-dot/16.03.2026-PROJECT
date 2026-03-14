@@ -79,9 +79,10 @@ In this second project, our group uses the _labMT 1.0 hedonometer_ to measure th
 
 ### Visualising Happiness in Guardian Articles
 
-  This section presents the visualisations used to analyse differences in the happiness scores across three topics. The dataset consists of 900 articles from The Guardian, with 300 of each from the World, Sport, and Culture sections. The happiness scores for eahc word is calculated using the labMT 1.0 lexicon, which matches sentiment value to each word and estimates them into a document level of happiness. 
-   
-  The main goal of these visualisations is to compare the distributionn, variability and differences in happiness between the three topics and to address these observations. 
+  - This section presents the visualisations used to analyse differences in the happiness scores across three sections of *The Guardian*: **World**, **Sport**, **Culture**.  
+  - The dataset consists of **900 articles**, each section consisted **300 articles**.  
+  - Happiness scores are measured using the **labMT 1.0 lexicon, which matches sentiment value to each word and estimates them into a document level of happiness. 
+  - The main goal of these visualisations is to compare the _distribution_, _variability_ and _differences in happiness_ between the three topics and to address these observations. 
     
 
 
@@ -89,10 +90,14 @@ In this second project, our group uses the _labMT 1.0 hedonometer_ to measure th
 
 
 ![](https://github.com/lindforsrebecka-dot/16.03.2026-PROJECT/blob/5c8f39037aa8274f8d9c8fd1130a88cc5b31b109/figures/happiness_scores_distribution.png)
+<p align="center"><sub><em>Figure 1. Distribution of happiness scores across World, Sport, and Culture sections </em></sub>
 
-By examining the distribution of happiness scores across all three sections using a histogram, we can see the frequency of the tokenized words' happiness scores on the y-axis and the coresponding happiness value on the x-axis. This plot shows us that most articles fall between a moderate happiness range (around the 5-6 happiness mark), with variations across sections. 
 
+By examining the distribution of happiness scores across all three sections using a histogram, we can analyze how frequently different happiness values appear.  
 
+The x-axis represents the happiness value, and the y-axis represents the frequency of words with corresponding values.  
+
+The histogram indicates that most values fall bewteen **5-6** happiness range, with varations across sections. 
 
 
 ### Happiness by section  
