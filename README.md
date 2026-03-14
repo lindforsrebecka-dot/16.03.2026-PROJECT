@@ -112,7 +112,7 @@ The plot indicates that **Sport** and **Culture** articles tend to have slightly
 
 A **boxplot** was also created, however, it provides very similar insight as the violin plot. The violin plot is therefore more emphasised in the analysis because it offers additionally the full distribution density. 
 
-We can see how the **World** section has some articles that are close to the level of happiness of 2, commpared to the other two sections, where are almost none. This shows there is way more **"sadness"** in the World articles. 
+We can see how the **World** section has some articles that are close to the level of happiness of **2**, commpared to the other two sections, where are almost none. This shows there is way more **"sadness"** in the World articles. 
 
 
 ### Happiness over time  
@@ -159,41 +159,45 @@ The plot confirms the pattern already observed in the bootstrap distribution: Sp
 
 ### Ridgeline Distribution Plot
 
-We also created a ridgeline plot to visualise the distribution of happiness scores for all sections. This plot shows information very similar to the violin plot, but it allows easier comparison of how the distributions change on the happiness scale. 
+We also created a ridgeline plot to visualise the distribution of happiness scores for all sections. This plot shows information very similar to the violin plot, but it allows for easier comparison of how the distributions change on the happiness scale. 
 
 ![](https://github.com/lindforsrebecka-dot/16.03.2026-PROJECT/blob/1912ccf84fb4ae90c62266ce4d2c0e2e36475621/figures/ridgeline_plot.png)
+<p align="center"><sub><em>Figure 6. Ridgeline distribution of happiness scores across World, Sport, and Culture articles.</em></sub>
 
 The ridgeline plot highlights the following patterns:
 
-- World articles mostly use words with happiness scores between 4.5 and 6.5.
-- Sport articles also begin around the 4.5 mark, but their dsitrubution extends further upward and reach values close to 7, which shows a higher presence of posiive language
-- Culture articles begin around the 4.5 mark as well, then show a slight drop in density around 5.5, and then stay relatively elevated until around 6.5.
+- World articles mostly use words with happiness scores between **4.5** and **6.5**.
+- Sport articles also begin around the **4.5** mark, but their dsitrubution extends further upward and reach values close to **7**, which indicates a higher presence of positive language
+- Culture articles begin around the **4.5** mark as well, then show a slight drop in density around **5.5**, and then stay relatively elevated until around **6.5**.
 
-This visualisation reinforces the observation that Sport and Culture tend to go further up on the happiness range than World articlles and that World articles have a slight dent around the 2 value for happiness scores.
+This visualisation reinforces the observation that Sport and Culture tend to reach higher values on the happiness range than World articlles. It also shows that World articles have a slight dent around the value of **2** for happiness scores.
 
 
 ### Top Contributing Words
 
-We use a bar chart of the top contributing words to identify the words that influence happinesss the most in each section. There are various observations that we see:
-
-- In the World section, the word "Mexico" apprears among the happiest contributing words, which shows Guardian's tendency around specific international news.
-- In the Sport section, the word "rock" appears as a highly positive word, though usually iy is used metaphorically instead of literally.
-- In the Culture section, the word "Christmas" also is a highly positive word.
+We use a bar chart of the top contributing words to identify the words contributing the most in each section. 
 
 ![](https://github.com/lindforsrebecka-dot/16.03.2026-PROJECT/blob/ba506d5d18a09ccf1c361dae5a81d488a9090d32/figures/top_contributing_words_bar_chart.png)
+<p align="center"><sub><em>Figure 7. Top contributing words to happiness scores in World, Sport, and Culture sections based on labMT lexicon.</em></sub>
 
+From this chart, various observations were made: 
+
+- In the **World** section, the word `"Mexico"` apprears among the happiest contributing words, which shows Guardian's tendency around specific international news.
+- In the **Sport** section, the word `"rock"` appears as a highly positive word, though usually iy is used metaphorically instead of literally.
+- In the Culture section, the word "Christmas" also is a highly positive word.
 
 The analysis also shows some interesting nuances. For example, the word "cry" appears in the Culture section with a relatively low happiness score (around 3), even though in some contexts crying might happen in a positive or situations that are emotionally moving. 
 
 Another interesting observation among all section is the word "free", which consistently appears as one of the words with the highest happiness scores. However, its meaning can very a significant amount depending on context, which shows how sentiment dictionaries might assign higher scores to words even when their usage differs. 
 
+---
 
-### Comparison with the labMT Dataset
+## Comparison with the labMT Dataset
 
 In order to understand better the happiness distribution of Guardian articles and how it compares with the lexicon, we also analyse the labMT dataset used in our first assignment. 
 
 
-#### Histogram Comparison
+### Histogram Comparison
 
 
 We start by configuring a histogram comparison that shows the happiness score distribution of the three Guardian topics, alongside the labMT dataset.
@@ -203,7 +207,7 @@ We start by configuring a histogram comparison that shows the happiness score di
 We can see how the labMT dataset shows a much higher frequency of the words overall and a greater number of words that have high happiness scores. In contrast, the Guardian articles have fewer words and show a narrower distribution in the histogram.
 
 
-#### Q-Q Plot Comparison
+### Q-Q Plot Comparison
 
 Using a Q-Q plot we can compare the happiness scoe distributions of the three topics with the labMT dataset. 
 
@@ -216,7 +220,7 @@ In this plot:
 - the World distribution falls below the line at the lower happiness values (around 2-3), which suggests that this section contains more negative words than it would be expected bsed on the general distribution of the lexicon.
 
 
-#### Violin Plot Comparison
+### Violin Plot Comparison
 
 
 ![](https://github.com/lindforsrebecka-dot/16.03.2026-PROJECT/blob/ba506d5d18a09ccf1c361dae5a81d488a9090d32/figures/violin_happiness_scores.png)
@@ -224,7 +228,7 @@ In this plot:
 
 In the violin plot we can see that the overall shapes of the distributions are similar to each other. However, the Guardian article distribution seem narrower, showing that they use a specific subset of language, instead of the full range of words used in the labMT lexicon.
 
-### Summary of our Visual Findings
+## Summary of our Visual Findings
 
 There are a few consistent patterns across all visualisations:
 
