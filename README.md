@@ -128,7 +128,7 @@ The ridgeline plot highlights the following patterns:
 This visualisation reinforces the observation that Sport and Culture tend to go further up on the happiness range than World articlles and that World articles have a slight dent around the 2 value for happiness scores.
 
 
-### Top COntributing Words
+### Top Contributing Words
 
 We use a bar chart of the top contributing words to identify the words that influence happinesss the most in each section. There are various observations that we see:
 
