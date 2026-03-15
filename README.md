@@ -38,7 +38,7 @@ We matched the cleaned tokens with the hedenometer, which contains English words
 to 9 (most happy). 
 Each of the 900 articles' emotional tone was estimated with the hedonomenter and matched with their corresponding labMT happiness scores. To receive an average happiness score, we took the mean of the happiness value of all matched tokens. This way we were able to produce a document level happiness score, which reveals the emotional tone of the article. 
 
-  
+To find differences in emotional tones across our sections, we applied visualization and statistical techniques to our project. We used a histogram distribution to show frequency of happiness values. A violin plot is used to compare distribution shape and density. Time-series visualization is to explore differences over publication dates. Bootstrap resampling enables estimating uncertainty in the mean happiness scores by section. Through Confidence interval comparison we evaluated differences between section means and finally we identified words with the largest impact on happiness scores.   
 
 ## Dataset  
 
