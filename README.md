@@ -226,17 +226,17 @@ In this plot:
 
 
 ![](https://github.com/lindforsrebecka-dot/16.03.2026-PROJECT/blob/ba506d5d18a09ccf1c361dae5a81d488a9090d32/figures/violin_happiness_scores.png)
-<p align="center"><sub><em>Figure 10. Violin plot comparing the distribution of happiness scores of the Guardian articles and labMT dataset.</em</sub></p>
+<p align="center"><sub><em>Figure 10. Violin plot comparing the distribution of happiness scores of the Guardian articles and labMT dataset.</em></sub></p>
 
-In the violin plot we can see that the overall shapes of the distributions are similar to each other. However, the Guardian article distribution seem narrower, showing that they use a specific subset of language, instead of the full range of words used in the labMT lexicon.
+In this violin plot we can see that the overall shapes of the distributions are similar to each other. However, the Guardian article distribution seem narrower. This suggests that the articles use a specific subset of language, instead of the full range of words used in the **labMT lexicon**.
 
 ## Summary of our Visual Findings
 
 There are a few consistent patterns across all visualisations:
 
-- Sport articles show the highest average happiness scores
-- Culture articles have a similar but slightly lower happiness value than Sport articles
-- World articles tend to have more negatively scored words
+- **Sport articles** show the highest average happiness scores
+- **Culture articles** have a similar but slightly lower happiness value than Sport articles
+- **World articles** tend to have more negatively scored words
 
 Even though the differences are not that extreme, they appear consistently acorss multiple visualisations, including bootstrap distributions, difference plots, and happiness analysis of tokenized words.
  
