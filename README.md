@@ -186,15 +186,15 @@ From this chart, various observations were made:
 - In the **Sport** section, the word `rock` appears as a highly positive word, though usually iy is used metaphorically instead of literally.
 - In the Culture section, the word "Christmas" also is a highly positive word.
 
-The analysis also shows some interesting nuances. For example, the word "cry" appears in the Culture section with a relatively low happiness score (around 3), even though in some contexts crying might happen in a positive or situations that are emotionally moving. 
+The analysis also shows some interesting nuances. For example, the word `cry` appears in the Culture section with a relatively low happiness score (around **3**), even though in some contexts `crying` might happen in a positive or situations that are emotionally moving. 
 
-Another interesting observation among all section is the word "free", which consistently appears as one of the words with the highest happiness scores. However, its meaning can very a significant amount depending on context, which shows how sentiment dictionaries might assign higher scores to words even when their usage differs. 
+Another interesting observation among all section is the word `free`, which consistently appears as one of the words with the highest happiness scores. However, its meaning can very a significant amount depending on context, which shows how sentiment dictionaries might assign higher scores to words even when their usage differs. 
 
 ---
 
 ## Comparison with the labMT Dataset
 
-In order to understand better the happiness distribution of Guardian articles and how it compares with the lexicon, we also analyse the labMT dataset used in our first assignment. 
+In order to understand better the happiness distribution of Guardian articles and how it compares with the lexicon, we also analyse the **labMT dataset** used in our first assignment. 
 
 
 ### Histogram Comparison
@@ -203,28 +203,30 @@ In order to understand better the happiness distribution of Guardian articles an
 We start by configuring a histogram comparison that shows the happiness score distribution of the three Guardian topics, alongside the labMT dataset.
 
 ![](https://github.com/lindforsrebecka-dot/16.03.2026-PROJECT/blob/ba506d5d18a09ccf1c361dae5a81d488a9090d32/figures/histogram_comparison_happiness_score.png)
+<p align="center"><sub><em>Figure 8. Histogram comparison of happiness scores distribution</em></sub>
 
-We can see how the labMT dataset shows a much higher frequency of the words overall and a greater number of words that have high happiness scores. In contrast, the Guardian articles have fewer words and show a narrower distribution in the histogram.
+We can see how the **labMT dataset shows a much higher frequency** of the words overall and a greater number of words that have high happiness scores. In contrast, the Guardian articles have fewer words and show a **narrower distribution** in the histogram.
 
 
 ### Q-Q Plot Comparison
 
-Using a Q-Q plot we can compare the happiness scoe distributions of the three topics with the labMT dataset. 
+A Q-Q plot was created to compare the happiness score distributions of the three topics with the labMT dataset. 
 
 ![](https://github.com/lindforsrebecka-dot/16.03.2026-PROJECT/blob/ba506d5d18a09ccf1c361dae5a81d488a9090d32/figures/qq_plot_categories_vs_labmt.png)
+<p align="center"><sub><em>Figure 9. Q-Q plot comparing happiness score distribution of each sections with labMT dataset.</em></sub>
 
 In this plot:
 
-- the labMT dataset follows the y = x line, which represent a perfect match between both the theoretical and observed distributions.
-- the Sport and Culture distributions are generally above this line, showing relatively higher happiness scores compared with the labMT baseline.
-- the World distribution falls below the line at the lower happiness values (around 2-3), which suggests that this section contains more negative words than it would be expected bsed on the general distribution of the lexicon.
+- the **labMT dataset** follows the _y = x_ line, which represents a perfect match between both the theoretical and observed distributions.
+- the **Sport** and **Culture** distributions are generally above this line, showing relatively higher happiness scores compared with the labMT baseline.
+- the **World** distribution falls below the line at the lower happiness values (around **2**-**3**), which suggests that this section contains more negative words than it would be expected based on the general distribution of the lexicon.
 
 
 ### Violin Plot Comparison
 
 
 ![](https://github.com/lindforsrebecka-dot/16.03.2026-PROJECT/blob/ba506d5d18a09ccf1c361dae5a81d488a9090d32/figures/violin_happiness_scores.png)
-
+<p align="center"><sub><em>Figure 10. Violin plot comparing the distribution of happiness scores of the Guardian articles and labMT dataset.</em</sub></p>
 
 In the violin plot we can see that the overall shapes of the distributions are similar to each other. However, the Guardian article distribution seem narrower, showing that they use a specific subset of language, instead of the full range of words used in the labMT lexicon.
 
