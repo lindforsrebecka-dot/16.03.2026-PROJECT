@@ -28,6 +28,14 @@ bodyText – full article text
 The raw dataset was saved as:
 data/raw/guardian_articles.csv
 
+Our preprocessing pipeline of the articles consisted of three main parts
+
+1. Tokenization, splitting article text into individual word tokens
+2. Normalization, converting the tokens to lowercase to ensure consistency and matching with the sentiment lexicon.
+3. Filtering, removing punctuation.
+   
+We matched the cleaned tokens with the hedenometer, which contains English words rated on a happiness scale from 1, least happy to 9, most happy. 
+Each of the 900 articles' emotional tone was estimated with the hedonomenter and matched with their corresponding labMT happiness scores. To receive an average happiness score, we took the mean of the happiness value of all matched tokens. This way we were able to produce a document level happiness score, which reveals the emotional tone of the article. 
 
   
 
