@@ -16,7 +16,7 @@ Main aim of this project is to compare how emotional tone differs in each news s
 - `tables/` - CSV tables & summaries
 
 ### Method
-In our project, we are analysing the emotional tone of -900 articles by The Guardian by using a labMT 1.0 hedonometer. It is a lexicon-based sentiment analysis tool that assigns happiness scores to individual words. We are combining article collection and lexical sentiment scoring to compare emotional tones across sections. 
+In our project, we are analysing the emotional tone of ~900 articles by The Guardian by using a labMT 1.0 hedonometer. It is a lexicon-based sentiment analysis tool that assigns happiness scores to individual words. We are combining article collection and lexical sentiment scoring to compare emotional tones across sections. 
 
 For our data collection, we are using the Guardian Open Platform Content API, which provides access to full article texts from The Guardian. For our data, we are concentrating on three main sections, “World”, “Sport” and “Culture” with a Python script. Each section will consist of 300 articles. These articles were extracted by various fields: 
 
