@@ -42,6 +42,8 @@ To find differences in emotional tones across our sections, we applied visualiza
 
 The distribution of happiness scores in the dataset between the Guardian and the original labMT lexicon distribution were compared by using histograms and violin plots. This comparison helps contextualize how the emotional tone of Guardian articles relates to the baseline sentiment distribution of the lexicon.
 
+All scripts used for this project and data collection are located in the src / directory. Our project is designed to run within a Python virtual environment. Running the script src/fetch_guardian.py reproduces the article collection process through the used Guardian API. 
+
 
 ## Dataset  
 
