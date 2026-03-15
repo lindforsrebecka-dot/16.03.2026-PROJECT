@@ -238,7 +238,7 @@ There are a few consistent patterns across all visualisations:
 - **Culture articles** have a similar but slightly lower happiness value than Sport articles
 - **World articles** tend to have more negatively scored words
 
-Even though the differences are not that extreme, they appear consistently acorss multiple visualisations, including bootstrap distributions, difference plots, and happiness analysis of tokenized words.
+Even though the differences are **not extreme**, they appear consistently acorss multiple visualisations, including bootstrap distributions, difference plots, and happiness analysis of tokenized words.
  
 
 
