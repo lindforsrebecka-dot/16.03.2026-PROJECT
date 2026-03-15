@@ -40,6 +40,9 @@ Each of the 900 articles' emotional tone was estimated with the hedonomenter and
 
 To find differences in emotional tones across our sections, we applied visualization and statistical techniques to our project. We used a histogram distribution to show frequency of happiness values. A violin plot is used to compare distribution shape and density. Time-series visualization is to explore differences over publication dates. Bootstrap resampling enables estimating uncertainty in the mean happiness scores by section. Through Confidence interval comparison we evaluated differences between section means and finally we identified words with the largest impact on happiness scores.   
 
+The distribution of happiness scores in the dataset between the Guardian and the original labMT lexicon distribution were compared by using histograms and violin plots. This comparison helps contextualize how the emotional tone of Guardian articles relates to the baseline sentiment distribution of the lexicon.
+
+
 ## Dataset  
 
 The dataset comes from the **Guardian Open Platform (Content API)**.   
