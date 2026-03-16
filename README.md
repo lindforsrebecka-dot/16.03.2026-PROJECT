@@ -16,33 +16,52 @@ Main aim of this project is to compare how emotional tone differs in each news s
 - `tables/` - CSV tables & summaries
 
 ### Method
-In our project, we are analysing the emotional tone of ~900 articles by The Guardian by using a labMT 1.0 hedonometer. It is a lexicon-based sentiment analysis tool that assigns happiness scores to individual words. We are combining article collection and lexical sentiment scoring to compare emotional tones across sections. 
+In our project, we are analysing the emotional tone of **900 articles by The Guardian** by using a **labMT 1.0 hedonometer**. It is a lexicon-based sentiment analysis tool that assigns happiness scores to individual words. We are combining article collection and lexical sentiment scoring to compare emotional tones across sections. 
 
-For our data collection, we are using the Guardian Open Platform Content API, which provides access to full article texts from The Guardian. For our data, we are concentrating on three main sections, “World”, “Sport” and “Culture” with a Python script. Each section will consist of 300 articles. These articles were extracted by various fields: 
+For our data collection, we are using the **Guardian Open Platform Content API**, which provides access to full article texts from The Guardian. For our data, we are concentrating on three main sections, `World`, `Sport` and `Culture` with a Python script. Each section will consist of **300 articles**.   
 
-webTitle – article title
-sectionName – Guardian news section
-webPublicationDate – publication date
-webUrl – article link
-bodyText – full article text
+These articles were extracted by various fields: 
+
+`webTitle` – article title  
+`sectionName` – Guardian news section  
+`webPublicationDate` – publication date  
+`webUrl` – article link  
+`bodyText` – full article text  
+
+
 The raw dataset was saved as:
-data/raw/guardian_articles.csv
+`data/raw/guardian_articles.csv`  
+
+#### _Text preprocessing_
 
 Our preprocessing pipeline of the articles consisted of three main parts
 
-1. Tokenization, splitting article text into individual word tokens
-2. Normalization, converting the tokens to lowercase to ensure consistency and matching with the sentiment lexicon.
-3. Filtering, removing punctuation.
+1. **Tokenization** - splitting article text into individual word tokens
+2. **Normalization** - converting the tokens to lowercase to ensure consistency and matching with the sentiment lexicon.
+3. **Filtering** - removing punctuation.
+
+#### _Scoring_
    
-We matched the cleaned tokens with the hedenometer, which contains English words rated on a happiness scale from 1 (least happy)
-to 9 (most happy). 
-Each of the 900 articles' emotional tone was estimated with the hedonomenter and matched with their corresponding labMT happiness scores. To receive an average happiness score, we took the mean of the happiness value of all matched tokens. This way we were able to produce a document level happiness score, which reveals the emotional tone of the article. 
+We matched the cleaned tokens with the **labMT hedenometer**, which contains English words rated on a happiness scale from **1 (least happy) to 9 (most happy)**.   
 
-To find differences in emotional tones across our sections, we applied visualization and statistical techniques to our project. We used a histogram distribution to show frequency of happiness values. A violin plot is used to compare distribution shape and density. Time-series visualization is to explore differences over publication dates. Bootstrap resampling enables estimating uncertainty in the mean happiness scores by section. Through Confidence interval comparison we evaluated differences between section means and finally we identified words with the largest impact on happiness scores.   
+Each of the 900 articles' emotional tone was estimated with the hedonomenter and matched with their corresponding labMT happiness scores. To receive an **average happiness score**, we took the mean of the happiness value of all matched tokens. This way we were able to produce a document level happiness score, which reveals the emotional tone of the article.     
 
-The distribution of happiness scores in the dataset between the Guardian and the original labMT lexicon distribution were compared by using histograms and violin plots. This comparison helps contextualize how the emotional tone of Guardian articles relates to the baseline sentiment distribution of the lexicon.
+#### _Statistical Analyssis and Visualisation_
 
-All scripts used for this project and data collection are located in the src / directory. Our project is designed to run within a Python virtual environment. Running the script src/fetch_guardian.py reproduces the article collection process through the used Guardian API. 
+To find differences in emotional tones across our sections, we applied visualization and statistical techniques to our project. We used various visualisation and statistical techniques: 
+
+- **Histogram** distributions to show frequency of happiness values,
+- **Violoin plots** to compared distribution shape and densities,
+- **Time-series visualisation** to explore differences over publication dates,
+- **Bootstrap resampling** to estimate uncertainty in mean happinesss scores,
+- **Confidence interval comparisons** to evaluate differences between section means,
+- **Word contribution analysis** to identify words with the largest impact on happiness scores. 
+
+#### _Comparison with labMT Dataset_
+
+The distribution of happiness scores in the dataset between the Guardian and the original **labMT lexicon** distribution were compared by using _histograms_ and _violin plots_. This comparison helps contextualize how the emotional tone of Guardian articles relates to the baseline sentiment distribution of the lexicon.
+
+All scripts used for this project and data collection are located in the `src/` directory. Our project is designed to run within a Python virtual environment. Running the script `src/fetch_guardian.py` reproduces the article collection process through the used Guardian API. 
 
 
 ## Dataset  
