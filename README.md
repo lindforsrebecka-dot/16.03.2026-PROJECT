@@ -22,11 +22,11 @@ For our data collection, we are using the **Guardian Open Platform Content API**
 
 These articles were extracted by various fields: 
 
-`webTitle` – article title  
-`sectionName` – Guardian news section  
-`webPublicationDate` – publication date  
-`webUrl` – article link  
-`bodyText` – full article text  
+- `webTitle` – article title  
+- `sectionName` – Guardian news section  
+- `webPublicationDate` – publication date  
+- `webUrl` – article link  
+- `bodyText` – full article text  
 
 
 The raw dataset was saved as:
@@ -44,7 +44,7 @@ Our preprocessing pipeline of the articles consisted of three main parts
    
 We matched the cleaned tokens with the **labMT hedonometer**, which contains English words rated on a happiness scale from **1 (least happy) to 9 (most happy)**.   
 
-Each of the 900 articles' emotional tone was estimated with the hedonomenter and matched with their corresponding labMT happiness scores. To receive an **average happiness score**, we took the mean of the happiness value of all matched tokens. This way we were able to produce a document level happiness score, which reveals the emotional tone of the article.     
+Each of the 900 articles' emotional tone was estimated with the hedonometer and matched with their corresponding labMT happiness scores. To receive an **average happiness score**, we took the mean of the happiness value of all matched tokens. This way we were able to produce a document level happiness score, which reveals the emotional tone of the article.     
 
 #### _Statistical Analysis and Visualisation_
 
@@ -127,7 +127,7 @@ python3 src/fetch_guardian.py
 
   - This section presents the visualisations used to analyse differences in the happiness scores across three sections of *The Guardian*: **World**, **Sport**, **Culture**.  
   - The dataset consists of **900 articles**, each section consisted **300 articles**.  
-  - Happiness scores are measured using the **labMT 1.0 lexicon, which matches sentiment value to each word and estimates them into a document level of happiness. 
+  - Happiness scores are measured using the **labMT 1.0 lexicon**, which matches sentiment value to each word and estimates them into a document level of happiness. 
   - The main goal of these visualisations is to compare the _distribution_, _variability_ and _differences in happiness_ between the three topics and to address these observations. 
     
 
@@ -171,7 +171,7 @@ Another visualisation looks into **happiness scores over time** by using a time 
 
 This plot allows us to look into how happiness changes across the dataset in a chronological order. 
 
-We can see however, that there is no significant change. This indicates that there is **no significant temporal shifts** in happinness across each articles. 
+We can see however, that there is no significant change. This indicates that there is **no significant temporal shifts** in happiness across each articles. 
 
 
 ### Bootstrap Distribution of Mean Happiness Scores
@@ -189,7 +189,7 @@ The bootstrap results visualizes that
 - **Culture** articles have a very similar mean to Sport, only (**5.60**)
 - **World** articles have a noticeably lower mean happiness (**5.39**)
 
-This pattern suggests that **Sport** and **Culture** articles tend to use slightly more positive language, comapared to the **World** news articles. 
+This pattern suggests that **Sport** and **Culture** articles tend to use slightly more positive language, compared to the **World** news articles. 
 
 
 ### Difference in Mean Happiness
@@ -213,7 +213,7 @@ We also created a ridgeline plot to visualise the distribution of happiness scor
 The ridgeline plot highlights the following patterns:
 
 - World articles mostly use words with happiness scores between **4.5** and **6.5**.
-- Sport articles also begin around the **4.5** mark, but their distriubution extends further upward and reach values close to **7**, which indicates a higher presence of positive language
+- Sport articles also begin around the **4.5** mark, but their distribution extends further upward and reach values close to **7**, which indicates a higher presence of positive language
 - Culture articles begin around the **4.5** mark as well, then show a slight drop in density around **5.5**, and then stay relatively elevated until around **6.5**.
 
 This visualisation reinforces the observation that Sport and Culture tend to reach higher values on the happiness range than World articles. It also shows that World articles have a slight dent around the value of **2** for happiness scores.
@@ -320,7 +320,7 @@ Overall, the project demonstrates how computational sentiment analysis can help 
  
 ## Citations  
 
-- Dodds, Peter Sheridan, Kameron Decker Harris, Isable M. Kloumann, Catherine A. Bliss, and Christopher M. Danforth. 2011. "Temporal Patterns of Happiness and Information in a Global Social Netowrk: Hedonometrics and Twitter." _PLoS ONE_ 6 (12): e26752. https://doi.org/10.1371/journal.pone.0026752  
+- Dodds, Peter Sheridan, Kameron Decker Harris, Isable M. Kloumann, Catherine A. Bliss, and Christopher M. Danforth. 2011. "Temporal Patterns of Happiness and Information in a Global Social Network: Hedonometrics and Twitter." _PLoS ONE_ 6 (12): e26752. https://doi.org/10.1371/journal.pone.0026752  
 
 - The Guardian Open Platform API
   : https://open-platform.theguardian.com
