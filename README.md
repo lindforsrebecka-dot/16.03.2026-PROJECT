@@ -297,12 +297,17 @@ Even though the differences are **not extreme**, they appear consistently across
 
 ## Discussion
 
-This analysis shows how computational text analysis can be used to explore emotional patterns in journalistic writing. By applying the labMT hedonometer to a collection of The Guardian articles, we were able to compare how emotional tone varies across 3 different news sections.
-For researchers in the digital humanities or media studies, this approach provides a way to examine large collections of news articles and identify patterns in language use that may not be visible through close reading alone.
-There are several limitations to this analysis.
-First, the sentiment scores rely on the labMT lexicon, meaning that only words included in the lexicon can be assigned a happiness score. Words that are not present in the lexicon cannot be included in the sentiment calculation.
-Second, lexicon-based sentiment analysis does not account for context. Words receive fixed happiness values regardless of how they are used. For example, a word such as cry may appear in negative contexts but can also express strong positive emotions. These differences cannot be captured by the method.
-Finally, the size of the dataset may also limit the analysis. Although the dataset includes 900 articles, analysing a larger dataset or a longer time period could potentially reveal additional patterns.
+This analysis shows how computational text analysis can be used to explore emotional patterns in journalistic writing. By applying the **labMT hedonometer** to a collection of _the Guardian_ articles, we were able to compare how emotional tone varies across 3 different news sections: `World`, `Sport`, and `Culture`.  
+
+For researchers in the **digital humanities** or **media studies**, this approach provides a way to examine large collections of news articles and identify patterns in language use that may not be visible through close reading alone.  
+
+There are several **limitations** to this analysis,  
+
+**First, the sentiment scores rely on the `labMT lexicon`**, meaning that only words included in the lexicon can be assigned a happiness score. Words that are not present in the lexicon cannot be included in the sentiment calculation.  
+
+**Second, lexicon-based sentiment analysis does not account for context**. Words receive fixed happiness values regardless of how they are used. For example, a word such as cry may appear in negative contexts but can also express strong positive emotions. These differences cannot be captured by the method.  
+
+**Finally, the **size of the dataset** may also limit the analysis**. Although the dataset includes **900 articles**, analysing a larger dataset or a longer time period could potentially reveal additional patterns.
 
 ## Conclusion
 This project analysed the emotional tone of 900 Guardian articles using the labMT 1.0 hedonometer. Sport and Culture articles tend to have slightly higher happiness scores, while World articles show lower values.
