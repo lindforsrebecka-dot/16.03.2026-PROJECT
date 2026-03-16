@@ -18,7 +18,7 @@ Main aim of this project is to compare how emotional tone differs in each news s
 ## Method
 In our project, we are analysing the emotional tone of **900 articles by The Guardian** by using a **labMT 1.0 hedonometer**. It is a lexicon-based sentiment analysis tool that assigns happiness scores to individual words. We are combining article collection and lexical sentiment scoring to compare emotional tones across sections. 
 
-For our data collection, we are using the **Guardian Open Platform Content API**, which provides access to full article texts from The Guardian. For our data, we are concentrating on three main sections, `World`, `Sport` and `Culture` with a Python script. Each section will consist of **300 articles**.   
+For our data collection, we are using the **Guardian Open Platform Content API**, which provides access to full article texts from The Guardian. For our data, we are concentrating on three main sections, `World`, `Sport` and `Culture` with a Python script. Each section consists of **300 articles**.   
 
 These articles were extracted by various fields: 
 
@@ -51,7 +51,7 @@ Each of the 900 articles' emotional tone was estimated with the hedonomenter and
 To find differences in emotional tones across our sections, we applied visualization and statistical techniques to our project. We used various visualisation and statistical techniques: 
 
 - **Histogram** distributions to show frequency of happiness values,
-- **Violoin plots** to compared distribution shape and densities,
+- **Violin plots** to compared distribution shape and densities,
 - **Time-series visualisation** to explore differences over publication dates,
 - **Bootstrap resampling** to estimate uncertainty in mean happinesss scores,
 - **Confidence interval comparisons** to evaluate differences between section means,
@@ -158,7 +158,7 @@ The plot indicates that **Sport** and **Culture** articles tend to have slightly
 
 A **boxplot** was also created, however, it provides very similar insight as the violin plot. The violin plot is therefore more emphasised in the analysis because it offers additionally the full distribution density. 
 
-We can see how the **World** section has some articles that are close to the level of happiness of **2**, commpared to the other two sections, where are almost none. This shows there is way more **"sadness"** in the World articles. 
+We can see how the **World** section has some articles that are close to the level of happiness of **2**, compared to the other two sections, where are almost none. This shows there is way more **"sadness"** in the World articles. 
 
 
 ### Happiness over time  
@@ -234,7 +234,7 @@ From this chart, various observations were made:
 
 The analysis also shows some interesting nuances. For example, the word `cry` appears in the Culture section with a relatively low happiness score (around **3**), even though in some contexts `crying` might happen in a positive or situations that are emotionally moving. 
 
-Another interesting observation among all section is the word `free`, which consistently appears as one of the words with the highest happiness scores. However, its meaning can very a significant amount depending on context, which shows how sentiment dictionaries might assign higher scores to words even when their usage differs. 
+Another interesting observation among all section is the word `free`, which consistently appears as one of the words with the highest happiness scores. However, its meaning can vary a significant amount depending on context, which shows how sentiment dictionaries might assign higher scores to words even when their usage differs. 
 
 ---
 
