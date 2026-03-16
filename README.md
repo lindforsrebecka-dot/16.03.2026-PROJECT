@@ -4,7 +4,7 @@ This project analyzes the emotional tone of articles produced by _The Guardian_ 
 
 By analyzing articles collected from the **Guardian Open Platform API**, this project aims to estimate happiness scores based on the values assigned to each words in the **labMT** data.  
 
-Main aim of this project is to compare how emotional tone differs in each news sections and examine differences in languaged used in different journalistic aspects.  
+Main aim of this project is to compare how emotional tone differs in each news sections and examine differences in language used in different journalistic aspects.  
 
 
 ## Folder layout  
@@ -42,11 +42,11 @@ Our preprocessing pipeline of the articles consisted of three main parts
 
 #### _Scoring_
    
-We matched the cleaned tokens with the **labMT hedenometer**, which contains English words rated on a happiness scale from **1 (least happy) to 9 (most happy)**.   
+We matched the cleaned tokens with the **labMT hedonometer**, which contains English words rated on a happiness scale from **1 (least happy) to 9 (most happy)**.   
 
 Each of the 900 articles' emotional tone was estimated with the hedonomenter and matched with their corresponding labMT happiness scores. To receive an **average happiness score**, we took the mean of the happiness value of all matched tokens. This way we were able to produce a document level happiness score, which reveals the emotional tone of the article.     
 
-#### _Statistical Analyssis and Visualisation_
+#### _Statistical Analysis and Visualisation_
 
 To find differences in emotional tones across our sections, we applied visualization and statistical techniques to our project. We used various visualisation and statistical techniques: 
 
@@ -142,14 +142,14 @@ By examining the distribution of happiness scores across all three sections usin
 
 The x-axis represents the happiness value, and the y-axis represents the frequency of words with corresponding values.  
 
-The histogram indicates that most values fall bewteen **5-6** happiness range, with varations across sections. 
+The histogram indicates that most values fall bewteen **5-6** happiness range, with variations across sections. 
 
 
 ### Happiness by section  
 
 
 ![](https://github.com/lindforsrebecka-dot/16.03.2026-PROJECT/blob/5c8f39037aa8274f8d9c8fd1130a88cc5b31b109/figures/happiness_by_section_violin_plot.png)  
-<p align="center"><sub><em>Figure 2. Viiolin plot showing distribution of happiness scores across World, Sport, and Culture sections. </em></sub></p>
+<p align="center"><sub><em>Figure 2. Violin plot showing distribution of happiness scores across World, Sport, and Culture sections. </em></sub></p>
 
 To compare the three sections, we used a **violin plot** that shows happiness scores by section. The violin plot helps us to better visualize the distribution, density, and spread of the data.  
 
@@ -170,7 +170,7 @@ Another visualisation looks into **happiness scores over time** by using a time 
 
 This plot allows us to look into how happiness changes across the dataset in a chronological order. 
 
-We can see however, that there is no significant change. This indicates that there is **no significant temporal shifts** in hapinness across each articles. 
+We can see however, that there is no significant change. This indicates that there is **no significant temporal shifts** in happinness across each articles. 
 
 
 ### Bootstrap Distribution of Mean Happiness Scores
@@ -212,10 +212,10 @@ We also created a ridgeline plot to visualise the distribution of happiness scor
 The ridgeline plot highlights the following patterns:
 
 - World articles mostly use words with happiness scores between **4.5** and **6.5**.
-- Sport articles also begin around the **4.5** mark, but their dsitrubution extends further upward and reach values close to **7**, which indicates a higher presence of positive language
+- Sport articles also begin around the **4.5** mark, but their distriubution extends further upward and reach values close to **7**, which indicates a higher presence of positive language
 - Culture articles begin around the **4.5** mark as well, then show a slight drop in density around **5.5**, and then stay relatively elevated until around **6.5**.
 
-This visualisation reinforces the observation that Sport and Culture tend to reach higher values on the happiness range than World articlles. It also shows that World articles have a slight dent around the value of **2** for happiness scores.
+This visualisation reinforces the observation that Sport and Culture tend to reach higher values on the happiness range than World articles. It also shows that World articles have a slight dent around the value of **2** for happiness scores.
 
 
 ### Top Contributing Words
@@ -228,7 +228,7 @@ We use a bar chart of the top contributing words to identify the words contribut
 From this chart, various observations were made: 
 
 - In the **World** section, the word `Mexico` apprears among the happiest contributing words, which shows Guardian's tendency around specific international news.
-- In the **Sport** section, the word `rock` appears as a highly positive word, though usually iy is used metaphorically instead of literally.
+- In the **Sport** section, the word `rock` appears as a highly positive word, though usually it is used metaphorically instead of literally.
 - In the Culture section, the word "Christmas" also is a highly positive word.
 
 The analysis also shows some interesting nuances. For example, the word `cry` appears in the Culture section with a relatively low happiness score (around **3**), even though in some contexts `crying` might happen in a positive or situations that are emotionally moving. 
@@ -283,7 +283,7 @@ There are a few consistent patterns across all visualisations:
 - **Culture articles** have a similar but slightly lower happiness value than Sport articles
 - **World articles** tend to have more negatively scored words
 
-Even though the differences are **not extreme**, they appear consistently acorss multiple visualisations, including bootstrap distributions, difference plots, and happiness analysis of tokenized words.  
+Even though the differences are **not extreme**, they appear consistently across multiple visualisations, including bootstrap distributions, difference plots, and happiness analysis of tokenized words.  
 
 
 ## Credits  
