@@ -283,12 +283,26 @@ There are a few consistent patterns across all visualisations:
 - **Culture articles** have a similar but slightly lower happiness value than Sport articles
 - **World articles** tend to have more negatively scored words
 
-Even though the differences are **not extreme**, they appear consistently acorss multiple visualisations, including bootstrap distributions, difference plots, and happiness analysis of tokenized words.
+Even though the differences are **not extreme**, they appear consistently acorss multiple visualisations, including bootstrap distributions, difference plots, and happiness analysis of tokenized words.  
+
+
+## Credits  
+
+- _Repo & Workflow lead_ - Garam Jeong
+- _Data acquisition lead_ - Shenru Wang
+- _Measurement lead_ - Rebecka Lindfors
+- _Stats & sampling lead_ - Gabriella Cohen
+- _Visualisation lead_ - Selin Tefic
  
+## Citations  
 
+- Dodds, Peter Sheridan, Kameron Decker Harris, Isable M. Kloumann, Catherine A. Bliss, and Christopher M. Danforth. 2011. "Temporal Patterns of Happiness and Information in a Global Social Netowrk: Hedonometrics and Twitter." _PLoS ONE_ 6 (12): e26752. https://doi.org/10.1371/journal.pone.0026752  
 
+- The Guardian Open Platform API
+  : https://open-platform.theguardian.com
 
-
+- Dataset
+  : labMT 1.0 dataset ("Language Assessment by Mechanical Turk") 
 
 
 
