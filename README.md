@@ -287,17 +287,9 @@ There are a few consistent patterns across all visualisations:
 Even though the differences are **not extreme**, they appear consistently across multiple visualisations, including bootstrap distributions, difference plots, and happiness analysis of tokenized words.  
 
 
-## Credits  
-
-- _Repo & Workflow lead_ - Garam Jeong
-- _Data acquisition lead_ - Shenru Wang
-- _Measurement lead_ - Rebecka Lindfors
-- _Stats & sampling lead_ - Gabriella Cohen
-- _Visualisation lead_ - Selin Tefic
-
 ## Discussion
 
-This analysis shows how computational text analysis can be used to explore emotional patterns in journalistic writing. By applying the **labMT hedonometer** to a collection of _the Guardian_ articles, we were able to compare how emotional tone varies across 3 different news sections: `World`, `Sport`, and `Culture`.  
+This analysis shows how computational text analysis can be used to explore emotional patterns in journalistic writing. By applying the `labMT 1.0 hedonometer` to a collection of _the Guardian_ articles, we were able to compare how emotional tone varies across 3 different news sections: **World**, **Sport**, and **Culture**.  
 
 For researchers in the **digital humanities** or **media studies**, this approach provides a way to examine large collections of news articles and identify patterns in language use that may not be visible through close reading alone.  
 
@@ -309,9 +301,22 @@ There are several **limitations** to this analysis,
 
 **Finally, the **size of the dataset** may also limit the analysis**. Although the dataset includes **900 articles**, analysing a larger dataset or a longer time period could potentially reveal additional patterns.
 
-## Conclusion
-This project analysed the emotional tone of 900 Guardian articles using the labMT 1.0 hedonometer. Sport and Culture articles tend to have slightly higher happiness scores, while World articles show lower values.
-Overall, the project demonstrates how computational sentiment analysis can help explore patterns in journalistic language while also highlighting the importance of interpreting lexicon-based results carefully.
+## Conclusion  
+
+This project analysed the emotional tone of **900** Guardian articles using the **labMT 1.0 hedonometer**. **Sport** and **Culture** articles tend to have slightly higher happiness scores, while **World** articles show lower values.  
+
+Overall, the project demonstrates how computational sentiment analysis can help explore patterns in journalistic language while also highlighting the importance of **interpreting lexicon-based results carefully**.  
+
+
+
+## Credits  
+
+- _Repo & Workflow lead_ - Garam Jeong
+- _Data acquisition lead_ - Shenru Wang
+- _Measurement lead_ - Rebecka Lindfors
+- _Stats & sampling lead_ - Gabriella Cohen
+- _Visualisation lead_ - Selin Tefic
+
  
 ## Citations  
 
