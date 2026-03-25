@@ -1,10 +1,14 @@
-# Inferring Happiness Dynamics in The Guardian
+# Inferring Happiness Dynamics in The Guardian  
 
 This project analyzes the emotional tone of articles produced by _The Guardian_ using the **labMT 1.0 hedonometer**.  
 
 By analyzing articles collected from the **Guardian Open Platform API**, this project aims to estimate happiness scores based on the values assigned to each words in the **labMT** data.  
 
 Main aim of this project is to compare how emotional tone differs in each news sections and examine differences in language used in different journalistic aspects.  
+
+**_Introduction video_**   
+https://drive.google.com/file/d/17mZMaVMewGTtBpoDqgt3nu3KNX-edhAr/view?usp=sharing  
+
 
 
 ## Folder layout  
