@@ -73,11 +73,10 @@ colors = {"World": "blue", "Sport": "orange", "Culture": "green"}
 
 fig, ax = plt.subplots(figsize=(8,5))
 for label, df_cat in categories.items():
-    if "date" in df_cat.columns:  # replace "Year" with your actual time column
+    if "date" in df_cat.columns: 
         yearly_avg = df_cat.groupby("date")["Happiness Score"].mean()
         ax.plot(yearly_avg.index, yearly_avg.values, marker='o', label=label, color=colors[label])
     else:
-        # If no time column, skip or plot cumulative index
         cumulative_avg = df_cat["Happiness Score"].expanding().mean()
         ax.plot(cumulative_avg, label=label, color=colors[label])
 
